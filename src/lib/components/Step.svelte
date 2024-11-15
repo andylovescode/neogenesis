@@ -88,7 +88,7 @@ let { step, mutate }: { step: Step, mutate(button: QuickButton): void } = $props
         {:else if step[0] === 'hint'}
             <p class="font-bold">Hint</p>
             <p class="text-muted-foreground">{step[1].message}</p>
-            <div class="flex flex-row gap-2 mt-2">
+            <div class="flex flex-row gap-2 mt-2 flex-wrap">
                 {#each step[1].quickButtons as button}
                     <Button size="tiny" variant={button.primary ? "default" : "secondary"} onclick={()=>{
                         mutate(button);
