@@ -9,7 +9,7 @@
     let steps = $derived(solveInternal(script));
 </script>
 
-<div class="flex flex-col gap-8 p-32 w-full">
+<div class="flex flex-col gap-8 p-8 md:px-64 md:py-32 w-full">
     <div class="flex flex-col gap-2">
         <h1 class="text-3xl font-bold tracking-tight">The <s>Physics</s> Math Solver</h1>
         <p class="text-muted-foreground">(please make sure you know your stuff before you use this, you will need the knowledge)</p>

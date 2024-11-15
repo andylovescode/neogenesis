@@ -13,7 +13,7 @@ let { step, mutate }: { step: Step, mutate(button: QuickButton): void } = $props
 </script>
 
 <div class="flex flex-row gap-4">
-    <div class="size-12 rounded-full bg-foreground text-background flex items-center justify-center">
+    <div class="size-12 rounded-full bg-foreground text-background hidden md:flex items-center justify-center">
         {#if step[0] === 'error'}
             <TriangleAlert/>
         {:else if step[0] === 'solve'}
