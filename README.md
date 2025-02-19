@@ -1,3 +1,5 @@
+> Notice: This is unmaintained, and will only be updated at the end of the year once classes are over.
+
 # neogenesis
 *bellarmine's best math solver*
 
